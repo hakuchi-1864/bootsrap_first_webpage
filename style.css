@@ -14,20 +14,22 @@ h1 {
   font-size: 3rem;
   color:#e2dbdb;
   padding-bottom: 70px;
+  height: 13rem;
 }
 
 hr {
-    margin: 10px auto;
+    margin: 20px auto;
     color: #F05F44;
     border: 3px solid #F05F44;
     border-color:#F05F44;
     max-width: 65px;
     opacity: 1;
-    border-width:3px;  
+    border-width:3px; 
+
 }
 
 .buffer {
-  height:10rem;
+  height:3rem;
 
 }
 .btn{
@@ -37,8 +39,10 @@ hr {
 }
 
 .btn-primary{
-  background-color: #F05F44;
-  border-color:#F05F44;
+    background-color: #F05F44;  
+    border-color: #F05F44;  
+      --bs-btn-hover-bg: #ee4b08; 
+      --bs-btn-hover-border-color: #ee4b08;
 
 }
 
